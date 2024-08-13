@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K8s Pod testing Documentation</title>
+    <link>http://localhost:42897/</link>
+    <description>Recent content on K8s Pod testing Documentation</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Aug 2024 18:00:42 +0530</lastBuildDate>
+    <atom:link href="http://localhost:42897/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>POD GRACEFUL TERMINATION</title>
+      <link>http://localhost:42897/posts/my-first-post/</link>
+      <pubDate>Mon, 12 Aug 2024 18:00:42 +0530</pubDate>
+      <guid>http://localhost:42897/posts/my-first-post/</guid>
+      <description>Pod Graceful Termination Test Relation How this test is related to the Testeable documentation for the Pod Lifecycle events project of LFX Mentorship&#xA;Purpose of this Test: The test creates a Pod, waits for it to start, then deletes it with a grace period, and finally checks that the Pod terminated gracefully.This test ensures that when a Pod is given a specific amount of time to terminate, it shuts down properly within that time, which is crucial for scenarios like rolling updates, cluster shutdowns, etc.</description>
+    </item>
+  </channel>
+</rss>
